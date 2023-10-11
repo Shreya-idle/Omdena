@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 5%;
+        }
+
+        .main {
+            width: 1033px;
+            height: 80vh;
+            background-color: rgb(1, 1, 99);
+            background-image: url(Bhopal_City_Lakes.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 10px 8%;
+            position: relative;
+            margin: 0 5rex 0 1.65rex;
+        }
+
+        .heading {
+            font-size: 3.5rem;
+            font-weight: 600;
+            float: inline-start;
+            color: white;
+            margin-top: 5%;
+        }
+
+        .intro-para {
+            color: azure;
+            font-size: large;
+            margin-top: 15%;
+            margin-right: 18.5%;
+
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-weight: 500;
+            float: left;
+            margin-top: 2%;
+
+
+        }
+        .intro p{
+            letter-spacing: 1cap;
+        }
+        
+        #bhopal_tragedy {
+            border-radius: 2px;
+            /* transform: rotate(10deg); */
+            /* transform: rotate(-10deg);  */
+            width: 15%;
+            height: 15%;
+            display: inline;
+            justify-content: space-evenly;
+
+        }
+
+        .slide-2 {
+            color: white;
+            margin: 5%;
+
+        }
+
+        .slide-2 h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+
+        }
+
+        .slide-2 h3:hover {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 1s ease forwards;
+        }
+
+        .slide-2 hr {}
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="intro">
+            <h1 class="heading">Project 2</h1>
+           
+            <div class="intro-para" style="margin-top: 10%;">
+                <p>Current practices of performing road inspections
+                    are time-consuming and labour-intensive. Road
+                    surfaces degrade on a daily basis as a result of the
+                    heavy traffic on them. This will not only impact the
+                    driver’s comfort but will also impact economic
+                    efficiency. To maintain roads as efficiently as
+                    possible, municipalities perform regular
+                    inspections.
+
+                </p>
+                <p>
+                </p>
+            </div>
+            <!-- <img id="bhopal_tragedy" style="margin-left: 95px;  " src="bhopal_tragedy1.jpeg">
+            <img id="bhopal_tragedy" style="float: right;" src="bhopal_tragedy2.jpeg">
+            <img id="bhopal_tragedy" style="float:left; transform:rotate(2deg);" src="bhopal_tragedy3.jpeg">
+            <img id="bhopal_tragedy" style="margin-left: 150px; " src="bhopal_tragedy4.jpg"> -->
+            <!-- <hr style="width: 100%; box-sizing: border-box; margin-top: 5%; margin-bottom:0%; padding: 0%; color: rgb(196, 175, 175);"> -->
+        </div>
+    </div>
+    <div class="under">
+        <div class="slide-2">
+            <div class="requirement" style="position: relative; top: 100%; margin-top: 20px;">
+                <h3 style="margin-top: 0%;">Requirement of this
+                    project
+                </h3>
+                <hr class="hr " />
+                <p>The aim of the project is to use machine learning
+                    to study and analyze different types of road
+                    defects and to automatically detect any road
+                    abnormalities. We will design, build and test an
+                    inspection system for this purpose.</p>
+                <p>
+                </p>
+            </div>
+            <div class="approach">
+                <h3>How we
+                    approached it
+                </h3>
+                <hr class="hr " />
+                <p>The system is equipped with a camera to collect
+                    video streams from different roads with and
+                    without defects. Then, the captured data will be
+                    analyzed using the Matlab machine learning
+                    toolbox to train and test the network. Finally, the
+                    system will provide recommended actions for the
+                    municipality related to actions required to
+                    fix/correct road defects. The approach is divided
+                    into 4 main tasks: Data acquisition, Data
+                    Training/Testing, and Dashboard Building and
+                    Testing.
+
+                </p>
+                <p></p>
+            </div>
+            <div class="technology">
+                <h3>Technology and resources used</h3>
+                <hr class="hr " />
+                <p>Our road inspection system utilizes advanced
+                technology to automate the detection of road defects
+                and damages. Equipped with HD cameras, the system
+                captures live video streams from roads, allowing for
+                comprehensive data acquisition. The captured data is
+                then analyzed using the Matlab machine learning
+                toolbox, enabling the training and testing of a network
+                that can accurately categorize road flaws. By leveraging
+                machine learning algorithms and image processing
+                techniques, the system can detect various road defects,
+                including cracks, patching, rutting, and deformation. It
+                further enhances efficiency by providing recommended
+                actions for municipalities to address and correct the
+                identified road issues. Additionally, the system
+                incorporates a user-friendly dashboard and graphical
+                interface to visualize and report the detected road
+                defects in real-time. This project showcases the power
+                of technology in streamlining road inspections and
+                improving infrastructure maintenance practices.</p>
+
+            </div>
+            <div class="outcome">
+                <h3>What was the
+                    positive outcome</h3>
+                    <hr class="hr " />
+                    <p>Our road inspection system will deliver
+                        remarkable outcomes, bringing about positive
+                        changes for infrastructure maintenance. By
+                        harnessing cutting-edge technology, such as HD
+                        cameras and machine learning algorithms, we
+                        will automate the detection of road defects and
+                        damages. This automation will significantly
+                        reduce inspection time and effort, leading to
+                        enhanced efficiency and resource allocation.
+                        Through comprehensive data acquisition and
+                        analysis, our system will accurately categorize
+                        road flaws, providing municipalities with
+                        actionable insights and recommended actions to
+                        address and correct these issues promptly. The
+                        real-time visualization capabilities offered by our
+                        user-friendly dashboard will empower decisionmakers to prioritize and allocate resources
+                        effectively. Ultimately, our road inspection system
+                        will ensure safer and better-maintained roads,
+                        contributing to improved transportation
+                        infrastructure and the overall well-being of
+                        communities.</p>
+            </div></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1</title>
+    <style>
+        body {
+            box-sizing: border-box;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 5%;
+        }
+
+        .main {
+            width: 1033px;
+            height: 80vh;
+            background-color: rgb(1, 1, 99);
+            background-image: url(Bhopal_City_Lakes.jpg);
+            background-size: cover;
+            background-position: center;
+            padding: 10px 8%;
+            position: relative;
+            margin: 0 5rex 0 1.65rex;
+        }
+
+        .heading {
+            font-size: 3.5rem;
+            font-weight: 600;
+            float: inline-start;
+            color: white;
+            margin-top: 5%;
+        }
+
+        .intro-para {
+            color: azure;
+            font-size: large;
+            margin-top: 15%;
+            margin-right: 18.5%;
+
+            /* font-family: Arial, Helvetica, sans-serif; */
+            font-weight: 500;
+            float: left;
+            margin-top: 2%;
+
+
+        }
+
+        #bhopal_tragedy {
+            border-radius: 2px;
+            /* transform: rotate(10deg); */
+            /* transform: rotate(-10deg);  */
+            width: 15%;
+            height: 15%;
+            display: inline;
+            justify-content: space-evenly;
+
+        }
+
+        .slide-2 {
+            color: white;
+            margin: 5% ;
+            
+        }
+
+        .slide-2 h3 {
+            font-size: 1.5rem;
+            font-weight: 600;
+
+        }
+
+        .slide-2 h3:hover {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: slideIn 1s ease forwards;
+        }
+
+        .slide-2 hr {}
+
+        @keyframes slideIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="intro">
+            <h1 class="heading">Project 1</h1>
+            <h5
+                style="color: grey; float:left; font-size: 2rem; font-weight:500; margin-top: 3px; margin-bottom: 1%; padding-right: 35%;">
+                Together, we can
+                make a difference!</h5>
+            <div class="intro-para">
+                <p>In the 1980s, the Bhopal region experienced one of the
+                    worst industrial disasters of release of toxic chemicals
+                    from the Union Carbide India Limited (UCIL) pesticide
+                    plant. The catastrophe raised awareness about
+                    industrial pollution. The water quality of the lakes in
+                    Bhopal has been significantly impacted by the 1984
+                    gas tragedy.
+                </p>
+                <p>In the years that followed, the Bhopal region dealt with
+                    environmental challenges,
+                    particularly regarding water quality. Therefore, we plan
+                    to check what are the impacts of this Gas Tragedy
+                    using GIS Technique and Satellite Imagery.
+                </p>
+            </div>
+            <!-- <img id="bhopal_tragedy" style="margin-left: 95px;  " src="bhopal_tragedy1.jpeg">
+            <img id="bhopal_tragedy" style="float: right;" src="bhopal_tragedy2.jpeg">
+            <img id="bhopal_tragedy" style="float:left; transform:rotate(2deg);" src="bhopal_tragedy3.jpeg">
+            <img id="bhopal_tragedy" style="margin-left: 150px; " src="bhopal_tragedy4.jpg"> -->
+            <!-- <hr style="width: 100%; box-sizing: border-box; margin-top: 5%; margin-bottom:0%; padding: 0%; color: rgb(196, 175, 175);"> -->
+        </div>
+    </div>
+    <div class="under">
+        <div class="slide-2">
+            <div class="requirement" style="position: relative; top: 100%; margin-top: 20px;">
+                <h3 style="margin-top: 0%;">Requirement of this
+                    project
+                </h3>
+                <hr class="hr " />
+                <p>Bhopal is also known as “The City of Lakes”, which indicates
+                    that Bhopal has a significant quantity of Lakes. People who
+                    live in the area are constantly in contact with chemicals
+                    assimilated in the water bodies during Gas Tragedy. Surveys
+                    done by the Bhopal campaign groups have shown that their
+                    environment contains six of the persistent organic
+                    pollutants banned by the United Nations for their highly
+                    poisonous impacts on the environment and human health,
+                    which has now reached 42 areas in Bhopal and continues to
+                    spread. According to the Surveyors, the situation is getting
+                    worse, and second and third-generation children are being
+                    born with disabilities.</p>
+                <p>Apart from this, during the “Gas
+                    Tragedy”, MIC(methyl isocyanide) was
+                    released, which reacts with water
+                    exothermically and produces carbon
+                    dioxide, methylamine, dimethylurea,
+                    and/or trimethyl biuret, these chemicals
+                    cause adverse effects on human bodies
+                    while incorporating itself to water. Swiss
+                    lab results show chloroform
+                    concentrations as many as 3.5 times
+                    higher than drinking-water guidelines
+                    from the World Health Organization and
+                    U.S. EPA , and carbon tetrachloride at up
+                    to 2,400 times higher than the
+                    guidelines, which impels us to study
+                    various lakes of Bhopal.
+                </p>
+            </div>
+            <div class="approach">
+                <h3>How we
+                    approached it
+                </h3>
+                <hr class="hr " />
+                <p>Firstly, We analyzed all the significant
+                    lakes present in Bhopal, which is utilized
+                    highly by the public, then we distributed
+                    all these lakes between our teams and
+                    then the task of collecting data using
+                    satellite Landstat and Sentinal which can
+                    be accessed using Google Earth Engine
+                    was in progress. This Collection of data
+                    was done from 2014-2023. After the
+                    collection of data, Analysis of every single
+                    parameter that was obtained was
+                    performed, which make us understand
+                    what is the quality of Water inside
+                    Bhopal, after the Gas Tragedy.
+                </p>
+                <p>The approach is divided into 5 main
+                    tasks: Planning and Analysis of
+                    Concerned Area, Data acquisition, Data
+                    Analysis, and Dashboard Building and
+                    Validating.</p>
+            </div>
+            <div class="technology">
+                <h3>Technology and resources used</h3>
+                <hr class="hr " />
+                Our water quality monitoring project utilizes
+                cutting-edge technology to assess and track
+                water quality parameters. By harnessing the
+                power of Google Earth Engine (GEE), a cloudbased platform, we can analyze vast amounts
+                of geospatial data, including satellite imagery
+                and geospatial datasets. GEE enables us to
+                detect changes in water quality by analyzing
+                spectral signatures, allowing for the
+                identification of areas experiencing pollution
+                or other environmental stresses. Additionally,
+                we employ Geographic Information System
+                (GIS) techniques to collect and analyze in-situ
+                sensor data, creating maps of water quality
+                parameters and developing predictive
+                models. This integration of GEE and GIS
+                technology provides us with a comprehensive
+                understanding of water quality dynamics,
+                enabling us to guide effective environmental
+                management strategies. Our project brochure
+                showcases the results and insights gained
+                from monitoring various lakes, demonstrating
+                the power of these technologies in
+                safeguarding water resources.
+            </div>
+            <div class="outcome">
+                <h3>What was the
+                    positive outcome?</h3>
+                    <hr class="hr " />
+                    <P>Will be disclosed soon...</P>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
